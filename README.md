@@ -30,7 +30,7 @@ apt install ninja-build
 python3 -m venv venv
 . venv/bin/activate
 pip install -U pip
-pip install meson
+pip install meson==0.46.1 (only work when setting this version or maybe below, otherwise you won't have libfprints.types when ninja intall)
 ```
 
 ## Trying it out
